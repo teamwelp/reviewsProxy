@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="http://localhost:9004/style.css">
     <link rel="stylesheet" type="text/css" href="/proxy-style.css">
     <link rel="icon" type="image/png" href="/favicon.ico">
-    <title>YELP</title>
+    <title><%-businessName%> - <%=reviewCount%> Reviews</title>
   </head>
   <body>
     <% include ./partials/header %>
@@ -23,13 +23,9 @@
     </div>
 
     <div id="ad"></div>
-
-
     <script src="http://localhost:9001/biz/200/bundle.js"></script>
     <script src="http://localhost:9002/biz/200/dist/bundle.js"></script>
     <script src="http://localhost:9003/dist/bundle.js"></script>
     <script src="http://localhost:9004/dist/bundle.js"></script>
-
-
   </body>
 </html>

@@ -1,0 +1,26 @@
+{
+  "name": "reviewsproxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamwelp/reviewsProxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teamwelp/reviewsProxy/issues"
+  },
+  "homepage": "https://github.com/teamwelp/reviewsProxy#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}

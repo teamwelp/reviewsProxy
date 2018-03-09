@@ -1,0 +1,109 @@
+
+#top-shelf {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 320px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+#header {
+  height: 64px;
+  background: #C3372F;
+}
+
+#nav-header {
+  height: 27px;
+  background: #bd1f1f;
+}
+
+body {
+  width: 100%;
+}
+
+#businessInfoHeader {
+  float: left;
+}
+
+#header-container {
+  overflow: auto;
+  margin: 20px auto 0 auto;
+  width: 960px;
+}
+
+#review-container {
+  width: 629px;
+  padding-right: 45px;
+  margin: 0 0 0 15px;
+  border-right: 1px solid #e6e6e6;
+}
+
+#businessInfoSidebar {
+  float:left;
+  padding-bottom: 30px;
+}
+
+#review-container {
+  float: left;
+  margin-left: 0;
+}
+#content-container {
+  margin: 40px auto 0 auto;
+  width: 990px;
+  overflow: auto;
+}
+
+#businessInfoSidebar a {
+  color: blue;
+}
+
+#nav-container {
+  height: 27px;
+}
+
+.nav {
+  font-weight: bold;
+  color: white;
+  line-height: 27px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  height: 27px;
+
+}
+
+.nav-cont {
+  padding: 0 30px;
+  float: left;
+  height: 27px;
+}
+
+#nav-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 740px;
+}
+
+#logo {
+  width: 80px;
+  margin-top: 13px;
+  float: left;
+  margin-right: 20px;
+}
+
+.input {
+  width: 343px;
+  height: 36px;
+  border-radius: 3px;
+  float: left;
+  margin-top: 15px;
+  border-style: none;
+  margin-right: 2px;
+  padding: 0 10px;
+}
+
+#head-cont {
+  height: 64px;
+  margin: 0 auto;
+  width: 900px;
+}

@@ -115,3 +115,75 @@ body {
 #photoGallery {
   float: left;
 }
+
+#related-top {
+  overflow: auto;
+  margin-left: 15px;
+  width: 629px;
+  box-sizing: border-box;
+  padding-right: 15px;
+}
+
+#related-side, #people-viewed {
+  overflow: auto;
+  margin-left: 15px;
+  width: 298px;
+}
+
+.adList__adList___3YOzq {
+  box-sizing: border-box !important;
+  padding-right: 15px !important;
+  border-color: transparent !important;
+  width: 629px !important; 
+  border-bottom: 1px solid #e6e6e6 !important;
+}
+
+.adList__listEntry___1v7iA {
+  width: 629px !important;
+  border-color: transparent !important;
+  border-top: 1px solid #e6e6e6 !important;
+  margin: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.adList__listEntry___1v7iA div div div span {
+  font-size: 14px;
+}
+
+#related-side > .adContent__allContent___2fTaA {
+  width: 298px !important;
+}
+
+#relate-side > .adList__adList___3YOzq {
+  width: 298px !important;
+}
+
+#reviews {
+  margin: 15px 0;
+  overflow: auto;
+}
+
+.adStyle__bizPic___Z9cNW {
+  border: none !important;
+  width: 60px !important;
+  height: 60px !important;
+}
+ 
+.adStyle__bizTitle___2g5bp {
+  font-size: 16px !important;
+}
+
+.adStyle__rating___VppYF {
+  line-height: 40px !important;
+  height: 40px !important;
+  display: inline-block !important;
+}
+
+.adContent__adType___3GyQD {
+  display: none !important;
+}
+
+.adContent__adType___3GyQD ~ span {
+  display: none !important;
+}

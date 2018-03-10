@@ -78,10 +78,14 @@ body {
   height: 27px;
 }
 
+.nav-cont:hover {
+  background-color: #88312C;
+}
+
 #nav-container {
   margin: 0 auto;
   text-align: center;
-  width: 740px;
+  width: 800px;
 }
 
 #logo {
@@ -106,4 +110,8 @@ body {
   height: 64px;
   margin: 0 auto;
   width: 900px;
+}
+
+#photoGallery {
+  float: left;
 }

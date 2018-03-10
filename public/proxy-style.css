@@ -162,6 +162,7 @@ body {
 #reviews {
   margin: 15px 0;
   overflow: auto;
+  width: 650px;
 }
 
 .adStyle__bizPic___Z9cNW {

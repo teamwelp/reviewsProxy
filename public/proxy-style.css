@@ -34,9 +34,10 @@ body {
 
 #review-container {
   width: 629px;
-  padding-right: 45px;
+  padding-right: 30px;
   margin: 0 0 0 15px;
   border-right: 1px solid #e6e6e6;
+  float: left;
 }
 
 #businessInfoSidebar {
@@ -44,10 +45,6 @@ body {
   padding-bottom: 30px;
 }
 
-#review-container {
-  float: left;
-  margin-left: 0;
-}
 #content-container {
   margin: 40px auto 0 auto;
   width: 990px;
@@ -81,7 +78,7 @@ body {
 .nav-cont:hover {
   background-color: #88312C;
 }
-
+ f
 #nav-container {
   margin: 0 auto;
   text-align: center;
@@ -118,7 +115,6 @@ body {
 
 #related-top {
   overflow: auto;
-  margin-left: 15px;
   width: 629px;
   box-sizing: border-box;
   padding-right: 15px;
@@ -151,18 +147,9 @@ body {
   font-size: 14px;
 }
 
-#related-side > .adContent__allContent___2fTaA {
-  width: 298px !important;
-}
-
-#relate-side > .adList__adList___3YOzq {
-  width: 298px !important;
-}
-
 #reviews {
   margin: 15px 0;
   overflow: auto;
-  width: 650px;
 }
 
 .adStyle__bizPic___Z9cNW {

@@ -28,13 +28,13 @@
       </div>
 
     </div>
-
-
-
-
+    <script>
+      window.REVIEWS_URL = '<%=reviewsURL%>';
+    </script>
     <script src="http://localhost:9001/biz/200/bundle.js"></script>
     <script src="http://localhost:9002/biz/200/dist/bundle.js"></script>
-    <script src="http://localhost:9003/dist/bundle.js"></script>
+    <script src="<%=`${reviewsURL}/dist/bundle.js`%>"></script>
     <script src="http://localhost:9004/dist/bundle.js"></script>
+
   </body>
 </html>

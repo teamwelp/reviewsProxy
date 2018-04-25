@@ -55,10 +55,6 @@ body {
   color: blue;
 }
 
-#nav-container {
-  height: 27px;
-}
-
 .nav {
   font-weight: bold;
   color: white;
@@ -78,11 +74,12 @@ body {
 .nav-cont:hover {
   background-color: #88312C;
 }
- f
+
 #nav-container {
   margin: 0 auto;
   text-align: center;
   width: 800px;
+  height: 27px;
 }
 
 #logo {

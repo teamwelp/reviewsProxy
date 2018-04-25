@@ -30,11 +30,13 @@
     </div>
     <script>
       window.REVIEWS_URL = '<%=reviewsURL%>';
+      window.BUSINESS_INFO_URL = '<%=photoGalleryURL%>';
+      window.RELATED_URL = '<%=relatedURL';
     </script>
-    <script src="http://localhost:9001/biz/200/bundle.js"></script>
+    <script src="<%=`${businessInfoURL}/biz/200/bundle.js`%>"></script>
     <script src="<%=`${photoGalleryURL}/dist/bundle.js`%>"></script>
     <script src="<%=`${reviewsURL}/dist/bundle.js`%>"></script>
-    <script src="http://localhost:9004/dist/bundle.js"></script>
+    <script src="<%=`${relatedURL}/dist/bundle.js`%>"></script>
 
   </body>
 </html>

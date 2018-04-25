@@ -27,6 +27,8 @@ app.get('/biz/:businessId/', (req, res) => {
     });
 });
 
+app.get('/', (req, res) => { res.redirect('/biz/201') });
+
 app.listen(port, () => {
-  console.log(`server running at: http://localhost:${port}`)
+  console.log(`server running at port ${port}`)
 });

@@ -5,6 +5,7 @@ const axios = require('axios');
 const app = express();
 
 const reviewsURL = process.env.REVIEWS_URL;
+const photoGalleryURL = process.env.PHOTO_GALLERY_URL;
 const port = process.env.PORT || 9000;
 
 app.use(morgan('dev'));
@@ -22,7 +23,7 @@ app.get('/biz/:businessId/', (req, res) => {
 
   Promise.all(promises)
     .then((arr) => {
-      res.render('index', { businessName: arr[0].data.businessName, reviewCount: arr[1].data.count, reviewsURL});
+      res.render('index', { businessName: arr[0].data.businessName, reviewCount: arr[1].data.count, reviewsURL, photoGalleryURL});
     });
 });
 
